@@ -13,6 +13,8 @@ Esto permite enfocarse en la **experiencia de usuario, el diseño del producto y
 A medida que vayamos construyendo nuevas ideas en conjunto, cada nueva aplicación vivirá en su propio directorio dentro de este monorepositorio.
 
 ### 1. 🎤 Entrevistador Universal (`/universal-interviewer`)
+**[▶️ Probar Aplicación en Vivo](https://alamozuna.github.io/AI-Apps/)**
+
 Una aplicación interactiva en React (con Vite y Tailwind CSS v4) que se integra con **Google Gemini (2.5 Flash)**. Permite subir un Curriculum Vitae en formato PDF junto a la descripción de una vacante, para generar de manera automática 25 preguntas de entrevista altamente personalizadas y estrategias de respuesta para cada una.
 
 ### 2. ⚛️ React Example (`/react-example`)
