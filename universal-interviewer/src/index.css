@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@config "../tailwind.config.js";
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
+
+.glass-panel {
+  @apply bg-white/70 backdrop-blur-lg shadow-xl rounded-2xl;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
