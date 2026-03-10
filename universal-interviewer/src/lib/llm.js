@@ -1,11 +1,8 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-// Hardcoded API Key per user request
-const API_KEY = "AIzaSyCM2vv6rTzCl0aSIXJOu1kKr-O8FvLFSiA";
-
-export async function generateInterviewQuestions(cvText, jobDescription, companyInfo) {
+export async function generateInterviewQuestions(apiKey, cvText, jobDescription, companyInfo) {
   try {
-    const genAI = new GoogleGenerativeAI(API_KEY);
+    const genAI = new GoogleGenerativeAI(apiKey);
     const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
     const prompt = `
